@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio Mockup</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- HEADER -->
+
+		<section id="header">
+			<div class="container">
+				<img
+					src="images/york-street-logo.png"
+					atl="Company Logo"
+					class="logo"
+				/>
+				<div class="header-text">
+					<h1>
+						Welcome to<br />
+						York Street Designs.
+					</h1>
+					<div class="content-break flex">
+						<span class="square"></span>
+						<span class="square"></span>
+						<span class="square"></span>
+					</div>
+					<p>
+						York street designs is a one stop shop for web design,
+						development, social media marketing, and SEo.
+						<br /><br />
+						Through user focused, responsive, websites, coupled with
+						first class Social Media Marketing,
+						<strong>York Stret Designs</strong> helps to grow your
+						digital presence.
+					</p>
+					<button class="common-btn">See Projects</button>
+					</div>
+					<div class="line">
+						<span class="line-1"></span><br />
+						<span class="line-2"></span><br />
+						<span class="line-3"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- NAV BAR -->
+
+		<nav id="sideNav">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">FEATURES</a></li>
+				<li><a href="#">COURSES</a></li>
+				<li><a href="#">OFFER</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</nav>
+		<img
+			id="menuBtn"
+			src="images/menu.png"
+			alt="Open and Close Menu Button"
+		/>
+		<script>
+			var menuBtn = document.getElementById("menuBtn");
+			var sideNav = document.getElementById("sideNav");
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function () {
+				if (sideNav.style.right == "-250px") {
+					sideNav.style.right = "0px";
+				} else {
+					sideNav.style.right = "-250px";
+				}
+			};
+		</script>
+
+		<!-- Process & Philosophy -->
+
+		<section id="process">
+			<div class="container process-row">
+				<div class="process-left-col">
+					<img src="images/course.png" />
+				</div>
+				<div class="process-right-col">
+					<div class="process-text">
+						<div class="line">
+							<span class="line-2"></span><br />
+							<span class="line-3"></span><br />
+							<span class="line-4"></span>
+						</div>
+						<h1>Process and Philosophy</h1>
+						<p>
+							Using a thoughtful appproach to business and design
+							<strong>York Street Designs</strong> helps grow
+							businesses by bringing together marketing, web
+							development, user experience, and SEO. By creating a
+							systematic relationship between all parts of the
+							process, turnaround times to provide sustainable
+							business media are shortened.
+						</p>
+						<div class="line-right-align">
+							<span class="line-4"></span><br />
+							<span class="line-3"></span><br />
+							<span class="line-2"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features -->
+
+		<section id="features">
+			<div class="feature-row">
+				<div class="feature-col">
+					<div class="card-services">
+						<img src="images/pencil.png" />
+						<h4>Design</h4>
+						<p>
+							York Street Designs will work with you to find a
+							custom design that suits your business needs.
+						</p>
+					</div>
+				</div>
+				<div class="feature-col">
+					<div class="card-services">
+						<img src="images/monitor.png" />
+						<h4>Build</h4>
+						<p>
+							By Using the latest technologies your website will
+							not only be functional, but a beautiful piece of
+							art.
+						</p>
+					</div>
+				</div>
+				<div class="feature-col">
+					<div class="card-services">
+						<img src="images/target.png" />
+						<h4>Market</h4>
+						<p>
+							It doesn't end after the build. York Street Designs
+							can help you start social media marketing campaigns
+							to help capture your target audience
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="feature-btn">
+				<div class="line-left">
+					<span class="line-2"></span><br />
+					<span class="line-3"></span><br />
+					<span class="line-4"></span>
+				</div>
+				<button class="common-btn">Let's Have a Chat</button>
+				<div class="line-right">
+					<span class="line-2"></span><br />
+					<span class="line-3"></span><br />
+					<span class="line-4"></span>
+				</div>
+			</div>
+		</section>
+
+		<!-- ABOUT ME -->
+
+		<section id="about">
+				<div class="about-left-col">
+					<div class="about-text">
+						<h1>About Me</h1>
+						<div class="flex">
+							<span class="square"></span>
+							<span class="square"></span>
+							<span class="square"></span>
+							<span class="square"></span>
+							<span class="square"></span>
+						</div>
+						<p>
+						Phil Haines is the creative mind behind
+						<strong>York Street Designs</strong>.<br /><br />Phil
+						started his career cooking in fine dining and Michelin
+						Stared restaurants across the globe. His talents and
+						skills led him to places around the world such as
+						Bangkok Thailand, Melbourne Australia, Jakarta
+						Indonesia, and more. <br /><br />
+						After Phil left the restaurant industry he fell in love
+						with tech and gained experience as a technical support
+						agent. Phil continued followed his passion and attended
+						General Assembly's User Experience Design course in
+						October of 2019, and Flatiron School's Full Stack Web
+						Dev course in February of 2021.
+						</p>
+						<div class="line">
+							<span class="line-1"></span><br />
+							<span class="line-2"></span><br />
+							<span class="line-3"></span>
+						</div>
+
+						<h2>
+							“You have to be a romantic to invest yourself, your
+							money, and your time in cheese.”
+						</h2>
+					<h3>-Anthony Bourdain</h3>
+				</div>
+			</div>
+			<div class="about-right-col">
+				<img src="images/about.png"/>
+			</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="Contact">
+			<div class="container contact-row">
+				<div class="contact-left-col">
+					<img src="images/contact.png" />
+				</div>
+				<div class="contact-right-col">
+					<div class="card-contact">
+						<h1>
+							Ready to maximize <br />
+							your potential?
+						</h1>
+						<form
+							name="contact"
+							method="POST"
+							netlify-honeypot="bot-field"
+							data-netlify="true"
+						>
+							<p class="hidden">
+								<label
+									>Don’t fill this out if you’re human:
+									<input name="bot-field"
+								/></label>
+							</p>
+							<input
+								type="hidden"
+								name="form-name"
+								value="contact"
+							/>
+							<div class="form-control">
+								<input
+									type="text"
+									name="name"
+									placeholder="Name"
+									required
+								/>
+							</div>
+							<div class="form-control">
+								<input
+									type="text"
+									name="company"
+									placeholder="Company Name"
+									required
+								/>
+							</div>
+							<div class="form-control">
+								<input
+									type="email"
+									name="email"
+									placeholder="Email"
+									required
+								/>
+							</div>
+							<input
+								type="submit"
+								value="Send"
+								class="common-btn contact-btn"
+							/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="container">
+				<div class="flex">
+					<div class="social footer-left-col">
+						<a href="#"><i class="fab fa-github fa-2x"></i></a>
+						<!--i class is image, fab calls font awesome, fa-twitter points to actual font awesome icon, fa-2x double the size of the origional icon-->
+						<a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+						<a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+					</div>
+						<div class="footer-right-col">
+						<img src="images/york-street-logo-white.png" />
+						<p>Copyright &copy; 2021</p>
+						<!-- &copy; produces copy right symbol-->
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
